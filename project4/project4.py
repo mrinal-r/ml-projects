@@ -18,7 +18,7 @@ def gen_input_sample():
     return round(random.uniform(-1.0, 1.0), 2)
 
 ####################### define the # datasets here ###########################################
-N = 100                                         
+N = 1000                                         
 
 ####################### code to generate the datasets ########################################
 datasets = np.empty([N, 2, 2], dtype=float)
